@@ -11,16 +11,28 @@
     <link rel="stylesheet" href="vendor/css/bootstrap.min.css" />
   </head>
   <body class="page">
-    <main>
-      <header class="header">
-        <div class="shadow-sm p-3 mb-5 bg-white rounded">
-          <img src="./images/logo/logo.svg" class="logo header__logo" alt="" />
-          <button type="button" class="btn btn-outline-secondary">CheckIn</button>
+    <header class="header">
+      <div class="header__content shadow-sm p-3 mb-5 bg-white rounded">
+        <img src="./images/logo/logo.svg" class="logo header__logo" alt="" />
+        <div class="header__nav">
+          <button type="button" class="btn btn-light">CheckIn</button>
           <a href="#" class="header__basket-logo"
             ><img src="./images/logo/basket_logo.png" alt=""
           /></a>
         </div>
-      </header>
+      </div>
+    </header>
+    <main>
+      <section class="search">
+        <label for="search__text"></label>
+        <input
+          type="search"
+          id="site-search"
+          name="q"
+          placeholder="Search by restaurants and cuisines:"
+          class="search__line"
+        />
+      </section>
     </main>
   </body>
 </html>
