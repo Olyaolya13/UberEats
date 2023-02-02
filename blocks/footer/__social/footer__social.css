@@ -1,0 +1,6 @@
+.footer__social {
+  display: flex;
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+}

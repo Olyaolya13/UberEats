@@ -1,0 +1,19 @@
+.footer__payment-link {
+  padding-right: 40px;
+  transition: 1s;
+  height: 38px;
+}
+
+.footer__payment-link:last-child {
+  padding-right: 0;
+}
+
+.footer__payment-link:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 650px) {
+  .footer__payment-link {
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,7 @@
+.footer__payment {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 41px auto 40px;
+}

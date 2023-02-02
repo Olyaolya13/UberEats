@@ -1,0 +1,30 @@
+.footer__lang {
+  background: #262626;
+  color: #fff;
+  width: 277px;
+  height: 40px;
+  cursor: pointer;
+  transition: 1s;
+  outline: none;
+  background: url(../../images/logo/world.svg) no-repeat center left 10%;
+  padding-left: 100px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.17em;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+.footer__lang:hover {
+  box-shadow: 5px 5px 10px rgba(167, 163, 163, 0.282);
+  border-radius: 10px;
+  background: #3b3b3b;
+}
+
+@media (max-width: 500px) {
+  .footer__lang {
+    width: 200px;
+    height: 30px;
+    padding-left: 60px;
+  }
+}

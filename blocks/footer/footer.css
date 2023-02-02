@@ -1,0 +1,12 @@
+.footer {
+  background: #262626;
+  color: #fff;
+  margin-top: 100px;
+  padding: 56px 81px 0;
+}
+@media (max-width: 1000px) {
+  .footer {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,13 @@
+.footer__list-link {
+  text-decoration: none;
+  color: #fff;
+  transition: 1s;
+}
+
+.footer__list-link:hover {
+  color: #807f7f6b;
+}
+
+.footer__list-link:active {
+  color: #49a144;
+}
