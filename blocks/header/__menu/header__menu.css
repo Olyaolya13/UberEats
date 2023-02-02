@@ -1,0 +1,15 @@
+.header__menu {
+  margin-right: 80px;
+}
+
+@media (min-width: 870px) and (max-width: 1000px) {
+  .header__menu {
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 870px) {
+  .header__menu {
+    margin-right: 0;
+  }
+}

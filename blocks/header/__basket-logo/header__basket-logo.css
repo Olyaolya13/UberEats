@@ -1,0 +1,9 @@
+.header__basket-logo {
+  margin-left: 27px;
+}
+
+@media (max-width: 400px) {
+  .header__basket-logo {
+    display: none;
+  }
+}

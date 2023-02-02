@@ -1,0 +1,22 @@
+.search {
+  max-width: 956px;
+  margin: 0 auto;
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .search {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 699px) {
+  .search {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .search {
+    max-width: 300px;
+  }
+}

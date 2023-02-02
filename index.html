@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="vendor/css/bootstrap.min.css" />
   </head>
   <body class="page">
-    <header class="header">
+    <header>
       <div class="header__content shadow-sm p-3 mb-5 bg-white rounded">
-        <img src="./images/logo/logo.svg" class="logo header__logo" alt="" />
-        <div class="header__nav">
+        <a href="#" class="logo"
+          ><img src="./images/logo/logo.svg" class="header__logo" alt=""
+        /></a>
+        <div class="header__menu">
           <button type="button" class="btn btn-light">CheckIn</button>
           <a href="#" class="header__basket-logo"
             ><img src="./images/logo/basket_logo.png" alt=""
@@ -24,14 +26,15 @@
     </header>
     <main>
       <section class="search">
-        <label for="search__text"></label>
-        <input
-          type="search"
-          id="site-search"
-          name="q"
-          placeholder="Search by restaurants and cuisines:"
-          class="search__line"
-        />
+        <form action="search" target="_blank" class="search__form">
+          <input
+            type="search"
+            name="text"
+            required
+            placeholder="Search by restaurants and cuisines"
+            class="search__input"
+          />
+        </form>
       </section>
     </main>
   </body>

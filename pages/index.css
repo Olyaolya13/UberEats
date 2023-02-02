@@ -1,3 +1,15 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+/*header*/
+@import url(../blocks/header/__basket-logo/header__basket-logo.css);
+@import url(../blocks/header/__content/header__content.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/logo/header.__logo.css);
+/*logo*/
+@import url(../blocks/logo/logo.css);
+/*search*/
+@import url(../blocks/search/search.css);
+@import url(../blocks/search/__form/search__form.css);
+@import url(../blocks/search/__line/search__line.css);
+@import url(../blocks/search/__text/search__text.css);

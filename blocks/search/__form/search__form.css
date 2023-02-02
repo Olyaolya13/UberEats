@@ -1,0 +1,26 @@
+.search__form {
+  border-bottom: 1px solid #7575754a;
+  cursor: pointer;
+}
+.search__form .search__input {
+  all: unset;
+  width: 956px;
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .search__form .search__input {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 699px) {
+  .search__form .search__input {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .search__form .search__input {
+    max-width: 300px;
+  }
+}

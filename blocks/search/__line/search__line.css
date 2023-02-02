@@ -1,0 +1,21 @@
+.search__line {
+  color: #757575;
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .search__line {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 699px) {
+  .search__line {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .search__line {
+    max-width: 300px;
+  }
+}
