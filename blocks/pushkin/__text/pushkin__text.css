@@ -1,0 +1,18 @@
+.pushkin__text {
+  background: #fff;
+  box-shadow: 5px 5px 10px rgba(20, 20, 20, 0.252);
+  position: absolute;
+  top: 80px;
+  left: 81px;
+  width: 389px;
+  height: 200px;
+  transition: 1s;
+  padding-left: 38px;
+  margin: 0;
+}
+
+.pushkin__text:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.612);
+  transform: scale(1.01);
+  cursor: pointer;
+}

@@ -9,69 +9,29 @@
   text-rendering: optimizeLegibility;
 }
 
-.pushkin {
-  position: relative;
-}
-
-.pushkin__image {
-  width: 100%;
-}
-
-.pushkin__text {
-  background: #fff;
-  box-shadow: 5px 5px 10px rgba(20, 20, 20, 0.252);
-  position: absolute;
-  top: 80px;
-  left: 81px;
-  width: 389px;
-  height: 200px;
-  transition: 1s;
-  padding-left: 38px;
+.menu {
+  list-style: none;
   margin: 0;
-}
-
-.pushkin__text:hover {
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.612);
-  transform: scale(1.01);
-  cursor: pointer;
-}
-
-.pushkin__title {
-  font-size: 36px;
-  line-height: 1.5em;
-  font-weight: 400;
-  color: #1d1d1d;
-  padding-bottom: 62px;
-  padding-top: 28px;
-  margin: 0;
-}
-
-.pushkin__price {
+  padding: 0;
   display: flex;
-  align-content: center;
-  justify-content: space-between;
-  margin-right: 38px;
+  justify-content: space-around;
+  max-width: 60%;
 }
 
-.pushkin__card {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.5em;
+.menu__link {
+  text-decoration: none;
   color: #626262;
-  margin: 0;
-}
-
-.pushkin__button {
-  background: #262626;
-  color: #fff;
-  border-radius: 20px;
-  font-size: 13px;
-  font-weight: 400;
   transition: 1s;
-  cursor: pointer;
 }
 
-.pushkin__button:hover {
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.612);
-  transform: scale(1.1);
+.menu__link:hover {
+  color: #1d9d0f8c;
+}
+
+.menu__link:active {
+  color: #327430;
+}
+
+.menu__link__active {
+  color: #327430;
 }

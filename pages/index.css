@@ -41,3 +41,11 @@
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/content/footer__content.css);
 @import url(../blocks/footer/contents/footer__contentcs.css);
+/*pushkin*/
+@import url(../blocks/pushkin/pushkin.css);
+@import url(../blocks/pushkin/__button/pushkin__button.css);
+@import url(../blocks/pushkin/__card/pushkin__card.css);
+@import url(../blocks/pushkin/__image/pushkin__image.css);
+@import url(../blocks/pushkin/__price/pushkin__price.css);
+@import url(../blocks/pushkin/__text/pushkin__text.css);
+@import url(../blocks/pushkin/__title/pushkin__title.css);

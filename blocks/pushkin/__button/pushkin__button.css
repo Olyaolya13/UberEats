@@ -1,0 +1,14 @@
+.pushkin__button {
+  background: #262626;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.pushkin__button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.612);
+  transform: scale(1.1);
+}
