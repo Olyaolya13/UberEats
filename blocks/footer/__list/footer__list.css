@@ -1,3 +1,8 @@
 .footer__list {
   padding-bottom: 23px;
+  padding-right: 40px;
+}
+
+.footer__list:last-child {
+  padding-right: 0;
 }

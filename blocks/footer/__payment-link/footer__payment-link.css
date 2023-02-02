@@ -1,11 +1,7 @@
 .footer__payment-link {
-  padding-right: 40px;
   transition: 1s;
   height: 38px;
-}
-
-.footer__payment-link:last-child {
-  padding-right: 0;
+  transition: 1s;
 }
 
 .footer__payment-link:hover {
