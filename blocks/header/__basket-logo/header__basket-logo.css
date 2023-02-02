@@ -1,5 +1,10 @@
 .header__basket-logo {
   margin-left: 27px;
+  transition: 0.3s ease-in-out 0.1s;
+}
+
+.header__basket-logo:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 400px) {

@@ -1,0 +1,7 @@
+.header__button {
+  transition: 0.3s ease-in-out 0.1s;
+}
+
+.header__button:hover {
+  opacity: 0.8;
+}
