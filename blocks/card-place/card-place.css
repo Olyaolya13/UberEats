@@ -1,0 +1,12 @@
+.card-place {
+  margin: 56px 81px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1140px) {
+  .card-place {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

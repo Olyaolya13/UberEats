@@ -1,0 +1,10 @@
+.cards__link {
+  text-decoration: none;
+  transition: 1s;
+}
+
+.cards__link:hover {
+  transform: scale(1.03);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.122);
+  border-radius: 10px;
+}

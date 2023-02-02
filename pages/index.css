@@ -14,3 +14,12 @@
 @import url(../blocks/search/__form/search__form.css);
 @import url(../blocks/search/__line/search__line.css);
 @import url(../blocks/search/__text/search__text.css);
+/*card-place*/
+@import url(../blocks/card-place/card-place.css);
+@import url(../blocks/card-place/__title/card-place__title.css);
+/*cards*/
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__link/cards__link.css);
+@import url(../blocks/cards/__price/cards__price.css);
+@import url(../blocks/cards/__text/cards__text.css);
+@import url(../blocks/cards/__time/cards__time.css);

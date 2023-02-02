@@ -1,0 +1,20 @@
+.card-place__title {
+  font-size: 22px;
+  line-height: 1.5em;
+  font-weight: 400;
+  color: #1d1d1d;
+  margin: 0 70px 16px;
+}
+
+@media (min-width: 870px) and (max-width: 1000px) {
+  .card-place__title {
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 400px) {
+  .card-place__title {
+    margin-left: 40px;
+    font-size: 20px;
+  }
+}
