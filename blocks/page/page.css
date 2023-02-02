@@ -8,30 +8,24 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
-
-.menu {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  max-width: 60%;
+.snacks {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 470px);
+  gap: 32px;
+  justify-content: center;
 }
 
-.menu__link {
-  text-decoration: none;
-  color: #626262;
+.snacks__card {
+  outline: 1px solid #75757533;
   transition: 1s;
+  border-radius: 10px;
+}
+.snacks__card:hover {
+  box-shadow: 5px 5px 15px #75757533;
+  transform: scale(1.03);
+  cursor: pointer;
 }
 
-.menu__link:hover {
-  color: #1d9d0f8c;
-}
-
-.menu__link:active {
-  color: #327430;
-}
-
-.menu__link__active {
-  color: #327430;
+.snacks__title {
+  margin: 56px 81px 32px;
 }

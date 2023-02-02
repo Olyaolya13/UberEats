@@ -49,3 +49,6 @@
 @import url(../blocks/pushkin/__price/pushkin__price.css);
 @import url(../blocks/pushkin/__text/pushkin__text.css);
 @import url(../blocks/pushkin/__title/pushkin__title.css);
+/*menu*/
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__link/menu__link.css);
