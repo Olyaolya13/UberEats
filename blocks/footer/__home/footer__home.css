@@ -1,0 +1,16 @@
+.footer__home {
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  bottom: 24px;
+  right: 16px;
+  background: url(../../../images/Shape.png) no-repeat center;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.663);
+  transition: 1s;
+}
+
+.footer__home:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
