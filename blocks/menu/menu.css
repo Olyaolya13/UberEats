@@ -6,3 +6,9 @@
   justify-content: space-around;
   max-width: 60%;
 }
+
+@media (max-width: 500px) {
+  .menu {
+    display: none;
+  }
+}

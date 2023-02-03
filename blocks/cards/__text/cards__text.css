@@ -5,3 +5,9 @@
   color: #1d1d1d;
   padding-top: 16px;
 }
+
+@media (max-width: 770px) {
+  .cards__text {
+    font-size: 14px;
+  }
+}

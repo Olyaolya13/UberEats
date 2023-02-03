@@ -1,3 +1,17 @@
 .pushkin__image {
   width: 100%;
 }
+
+@media (min-width: 600px) and (max-width: 971px) {
+  .pushkin__image {
+    object-fit: cover;
+    object-position: center;
+    height: 364px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+  .pushkin__image {
+    height: 250px;
+  }
+}

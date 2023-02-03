@@ -16,3 +16,20 @@
   transform: scale(1.01);
   cursor: pointer;
 }
+
+@media (max-width: 971px) {
+  .pushkin__text {
+    padding-left: 15px;
+    width: 308px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 580px) {
+  .pushkin__text {
+    top: 40px;
+    left: 41px;
+    width: 250px;
+    height: 180px;
+  }
+}

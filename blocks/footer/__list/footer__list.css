@@ -6,3 +6,9 @@
 .footer__list:last-child {
   padding-right: 0;
 }
+
+@media (max-width: 400px) {
+  .footer__list {
+    padding-right: 0;
+  }
+}
