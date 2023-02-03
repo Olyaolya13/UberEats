@@ -1,4 +1,6 @@
 .snacks__card {
+  display: flex;
+  justify-content: space-between;
   outline: 1px solid #75757533;
   transition: 1s;
   border-radius: 10px;

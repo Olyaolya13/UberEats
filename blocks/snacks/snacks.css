@@ -15,7 +15,20 @@
     grid-template-columns: repeat(1, 600px);
   }
 }
-@media (max-width: 600px) {
+
+@media (max-width: 610px) {
+  .snacks {
+    grid-template-columns: repeat(1, 500px);
+  }
+}
+
+@media (max-width: 523px) {
+  .snacks {
+    grid-template-columns: repeat(1, 400px);
+  }
+}
+
+@media (max-width: 421px) {
   .snacks {
     grid-template-columns: repeat(1, 300px);
   }

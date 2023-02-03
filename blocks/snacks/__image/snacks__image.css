@@ -10,9 +10,16 @@
   }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 480px) {
   .snacks__image {
-    width: 8rem;
-    height: 8rem;
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 421px) {
+  .snacks__image {
+    width: 102px;
+    height: 102px;
   }
 }

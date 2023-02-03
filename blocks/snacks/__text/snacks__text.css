@@ -1,0 +1,9 @@
+.snacks__text {
+  margin: 16px 16px;
+}
+
+@media (max-width: 421px) {
+  .snacks__text {
+    margin: 0 5px;
+  }
+}
