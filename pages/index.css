@@ -52,3 +52,10 @@
 /*menu*/
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__link/menu__link.css);
+/*snacks*/
+@import url(../blocks/snacks/snacks.css);
+@import url(../blocks/snacks/__card/snacks__card.css);
+@import url(../blocks/snacks/__image/snacks__image.css);
+@import url(../blocks/snacks/__price/snacks__price.css);
+@import url(../blocks/snacks/__name/snacks__name.css);
+@import url(../blocks/snacks/__title/snacks__title.css);

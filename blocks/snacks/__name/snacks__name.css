@@ -1,0 +1,8 @@
+.snakcs__name {
+  margin-bottom: 50px;
+}
+@media (max-width: 500px) {
+  .snakcs__name {
+    margin-bottom: 30px;
+  }
+}

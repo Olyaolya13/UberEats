@@ -1,0 +1,21 @@
+.snacks__title {
+  margin: 56px 81px 32px;
+}
+
+@media (max-width: 1300px) {
+  .snacks__title {
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .snacks__title {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 450px) {
+  .snacks__title {
+    margin-top: 100px;
+  }
+}

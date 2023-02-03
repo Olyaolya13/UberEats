@@ -1,0 +1,22 @@
+.snacks {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 470px);
+  gap: 32px;
+  justify-content: center;
+}
+
+@media (max-width: 990px) {
+  .snacks {
+    grid-template-columns: repeat(auto-fill, 700px);
+  }
+}
+@media (max-width: 770px) {
+  .snacks {
+    grid-template-columns: repeat(1, 600px);
+  }
+}
+@media (max-width: 600px) {
+  .snacks {
+    grid-template-columns: repeat(1, 300px);
+  }
+}

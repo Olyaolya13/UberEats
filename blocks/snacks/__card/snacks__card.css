@@ -1,0 +1,10 @@
+.snacks__card {
+  outline: 1px solid #75757533;
+  transition: 1s;
+  border-radius: 10px;
+}
+.snacks__card:hover {
+  box-shadow: 5px 5px 15px #75757533;
+  transform: scale(1.03);
+  cursor: pointer;
+}
